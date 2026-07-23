@@ -1,10 +1,11 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int i=1;
+    int sum=0,i=1;
     do{
-        cout<<"9 *"<<i<<" ="<<9*i<<endl;
+        sum+=i;
         i++;
     }
     while(i<11);
+    cout<<"Sum:"<<sum;
 }

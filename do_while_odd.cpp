@@ -3,8 +3,8 @@ using namespace std;
 int main(){
     int i=1;
     do{
-        cout<<"9 *"<<i<<" ="<<9*i<<endl;
-        i++;
+        cout<<i<<endl;
+        i+=2;
     }
-    while(i<11);
+    while(i<=20);
 }
